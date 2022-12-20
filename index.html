@@ -210,17 +210,16 @@
 				#avatar {
 					grid-row-start: 2;
 					grid-column-start: span 2;
-					max-width: 240px;
 				}
 
 					#avatar img {
-						max-width: 160px;
-						margin: 0 0 16px 0;
+						max-width: 100%;
 					}
 
 				figure {
-					display: flex;
-					flex-direction: column;
+					    display: grid;
+    					grid-template-columns: 1fr 1fr;
+    					grid-gap: 32px;
 				}
 
 				h1 {
